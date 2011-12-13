@@ -1,0 +1,2 @@
+* * * * * sh /opt/lserv/servdog.sh lserv 10000 monitor >>/opt/lserv/lservdog.log
+1 2 * * 6 sh /opt/lserv/remove_logs.sh
