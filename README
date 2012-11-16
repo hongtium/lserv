@@ -5,3 +5,5 @@ Using with client(Java or C++ etc.), it can be a distributed LogServer.
 Log files are named by {LOGROOT}/{mod_name}/yyyyww.log (Every file per week under named moudle).
 
 Each line starts with timestamp of receiving UDP package. So the limitation of log body is about 50kB, the same as ONE UDP package's max payload.
+
+If linked the {mod_name} to a RamDisk directory, it became an effective memory-based MessageQueue! 
